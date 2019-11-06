@@ -1,0 +1,160 @@
+.root {
+  background-color: var(--root_background) !important;
+  color: var(--root_text-color) !important;
+
+  width: 100%;
+  height: 100%;
+
+  min-width: 1100px;
+  
+  button {
+    outline: none !important;
+  }
+}
+
+.header {
+  height: 80px;
+  margin-bottom: 5px;
+  box-shadow: none;
+
+  .bp3-button {
+    margin-top: 32px;
+    font-size: 16px;
+
+    span {
+      font-weight: var(--root_header-button) !important;
+    }
+
+    // &:hover {
+      // background: transparent !important;
+
+      // span, svg {
+      // }
+    // }
+  }
+
+  .bp3-navbar-divider {
+    margin-top: 32px;
+    height: 60px;
+  }
+
+  .logo {
+    img {
+      width: 155px;
+      margin-top: 32px;
+    }
+  }
+
+  .project-name {
+    font-weight: var(--root_header-project-name) !important;
+
+    margin-top: 42px;
+    font-size: 17px;
+    margin-right: 15px;
+  }
+
+  &-robo {
+    .status {
+      margin-top: 47px;
+    }
+
+    .process {
+      margin-top: 42px;
+      margin-left: 5px;
+      height: 20px;
+      cursor: pointer;
+      
+      svg {
+        color: #79BAED;
+        width: 22px;
+        height: 22px;
+
+        -webkit-animation: robo-progress 1.5s linear infinite;
+        -moz-animation: robo-progress 1.5s linear infinite;
+        -o-animation: robo-progress 1.5s linear infinite;
+        animation: robo-progress 2s linear infinite;
+      }
+
+      @keyframes robo-progress {
+        0% { opacity: 0.20; }
+        25% { opacity: 0.25; }
+        50% { opacity: 0.5; }
+        75% { opacity: 0.75; }
+        100% { opacity: 1; }
+      }
+    }
+
+    .finish {
+      margin-top: 42px;
+      margin-left: 5px;
+      height: 20px;
+      cursor: pointer;
+      
+      svg {
+        color: #79BAED;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  &-menu-lang {
+    min-width: 80px !important;
+
+    .bp3-menu-item {
+      padding: 10px;
+    }
+
+    .bp3-fill {
+      text-transform: capitalize;
+    }
+  }
+}
+
+.header-robo-info-content {
+  padding: 10px;
+
+  div, .bp3-button {
+    display: inline-block !important;
+  }
+
+  .bp3-button {
+    margin-right: 12px;
+    margin-top: -2px;
+  }
+
+  hr {
+    border: 0;
+    border-bottom: 1px solid #1F282E;
+  }
+}
+
+.up-title {
+  text-transform: capitalize;
+}
+
+
+// #vplayer2 {
+//   display: block;
+//   position: fixed;
+//   top: 130px;
+//   left: 110px;
+
+//   .hh {
+//     background-color: grey;
+//     height: 20px;
+//     cursor: pointer;
+//   }
+// }
+
+// #vpplayer2 {
+//   width: 630px;
+//   height: 355px;
+
+//   // position: absolute;
+//   width: 650px;
+//   margin-left: 5px;
+//   bottom: 4px;
+//   padding: 10px 15px;
+//   z-index: 999;
+// }

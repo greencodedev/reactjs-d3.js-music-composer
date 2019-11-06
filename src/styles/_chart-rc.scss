@@ -1,0 +1,145 @@
+.root-chart {
+  &--rect {
+    fill: none;
+    pointer-events: all;
+  }
+
+  &--g {
+    // cursor: none;
+    // transform: translate(30px, 30px);
+  }
+}
+
+.corner-axis {
+  &--x,
+  &--y {
+    color: var(--chart_corner-axis) !important;
+  }
+
+  text {
+    color: var(--chart_corner-axis-text) !important;
+
+    font-weight: 600;
+  }
+}
+
+.line-axis {
+  &--x,
+  &--y {
+    color: var(--chart_line-axis) !important;
+  }
+}
+
+.line-path {
+  stroke: var(--chart_line-path) !important;
+
+  fill: none;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+
+  // .rc-default & {
+  //   stroke: red;
+  // }
+
+  // .rc-example1 & {
+  //   stroke: green;
+  // }
+}
+
+.vertical-line,
+.horizontal-line {
+  stroke-dasharray: 5;
+  stroke: grey;
+  stroke-width: 1;
+  pointer-events: none;
+}
+
+.sync-point-line {
+  // stroke-dasharray: 2;
+  stroke: grey;
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+.second-line {
+  stroke-dasharray: 2;
+  stroke: #5F99C9;
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+.x-label,
+.y-label {
+  fill: var(--chart_x-y-label) !important;
+
+  text-anchor: middle;
+  font-size: 12px;
+  fill: grey;
+  cursor: default;
+  font-weight: 600;
+}
+
+.chart-rect {
+  fill: #f5f8fa;
+  opacity: 0;
+}
+
+.circle {
+  fill: black;
+  stroke-width: 2;
+  cursor: pointer;
+
+  &--simple {
+    stroke: var(--chart_circle-simple) !important;
+  }
+
+  &--hover {
+    stroke: var(--chart_circle-hover) !important;
+
+    fill: #2E2E2E;
+  }
+
+  &--pointer {
+    stroke: grey;
+    fill: black;
+  }
+
+  &--selected {
+    stroke:green;
+    fill: #2E2E2E;
+  }
+
+  &--selected-hover {
+    stroke:#48A329;
+    fill: #2E2E2E;
+  }
+
+  &--sync {
+    stroke:#48A329;
+    fill: #2E2E2E;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.handle-tooltip {
+  fill: var(--chart_handle-tooltip) !important;
+
+  fill: steelblue;
+  font-size: 12px;
+  font-weight: bold;
+
+  &--default {
+    fill: var(--chart_handle-tooltip-default) !important;
+  }
+
+  &--pointer {
+    fill: var(--chart_handle-tooltip-pointer) !important;
+  }
+}
+
+.handle-tooltip-sync {
+  font-size: 10px;
+}

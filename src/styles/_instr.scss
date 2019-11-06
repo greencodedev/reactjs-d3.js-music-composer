@@ -1,0 +1,32 @@
+.instr {
+  width: 600px;
+}
+
+#instrument-panel {
+  height: 500px;
+  padding-left: 5px;
+
+  .bp3-checkbox {
+    padding-left: 34px !important;
+  }
+
+  // .bp3-tab-indicator-wrapper:focus, .bp3-tab-indicator:focus, .bp3-tab:focus {
+  *:focus {
+    outline: none !important;
+  }
+
+  .tab-content {
+    max-height: 500px;
+    width: 100%;
+    overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+  }
+
+  .search {
+    width: 185px;
+    margin-right: 0 !important;
+  }
+}
+  

@@ -1,0 +1,116 @@
+input {
+  &:focus {
+    outline: #574E4B auto 2px !important;
+    box-shadow: none !important;
+  }
+}
+
+.bp3-navbar {
+  background-color: var(--root_header-background-color) !important;
+
+  box-shadow: none !important;
+
+  &-divider {
+    border-left-color: var(--root_header-devider) !important;
+  }
+}
+
+.bp3-slider-handle {
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.bp3-icon > svg:not([fill]) {
+  color: var(--root_icon) !important;
+}
+
+// .bp3-button.bp3-intent-success {
+//   background-color: #3E5736 !important;
+// }
+
+.bp3-button,
+.bp3-control-group .bp3-button,
+.bp3-control-group .bp3-html-select select,
+.bp3-control-group .bp3-select select {
+  border-radius: 4px;
+}
+
+.bp3-button.bp3-intent-primary {
+  background-color: var(--root_button-primary) !important;
+}
+
+.bp3-intent-primary.bp3-active {
+  background-color: var(--root_intent-primary-active) !important;
+}
+
+.bp3-button:not([class*="bp3-intent-"]),
+.bp3-button:not([class*="bp3-intent-"]) {
+  background-color: var(--root_button-not-intent) !important;
+}
+
+.bp3-button:not([class*="bp3-intent-"]):active,
+.bp3-button:not([class*="bp3-intent-"]).bp3-active {
+  background-color: var(--root_button-not-intent-active) !important;
+}
+
+.bp3-button.bp3-minimal {
+  background-color: var(--root_button-minimal) !important;
+
+  &:hover {
+    background-color: var(--root_button-minimal-hover) !important;
+  }
+}
+
+.bp3-menu {
+  background-color: var(--root_menu) !important;
+}
+
+.bp3-popover-arrow-fill {
+  fill: var(--root_popover-arrow) !important;
+}
+
+.bp3-card {
+  background-color: var(--root_card) !important;
+}
+
+.bp3-slider-handle,
+.bp3-slider-handle:hover {
+  background-color: var(--root_slider-handle) !important;
+}
+
+.bp3-slider-progress.bp3-intent-primary,
+.bp3-control input:checked ~ .bp3-control-indicator {
+  background-color: var(--root_slider-progress) !important;
+}
+
+.bp3-control-indicator {
+  background-color: var(--root_control-indicator) !important;
+}
+
+.bp3-dialog {
+  background-color: var(--root_dialog) !important;
+}
+
+.bp3-tab[aria-selected="true"],
+.bp3-tab:not([aria-disabled="true"]):hover {
+  color: var(--root_tab) !important;
+}
+
+.bp3-tab-indicator {
+  background-color: var(--root_tab_indicator) !important;
+}
+
+.bp3-dialog-header {
+  background-color: var(--root-dialog-header) !important;
+}
+
+.bp3-popover-content {
+  background-color: var(--root-popover-content) !important;
+}
+
+.bp3-toast {
+  .bp3-button {
+    background: transparent !important;
+  }
+}

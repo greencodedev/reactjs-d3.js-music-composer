@@ -1,0 +1,43 @@
+// .header {
+  
+// }
+
+.robo-status {
+  position: relative;
+  top: 14px;
+  left: 14px;
+  width: 380px;
+}
+
+.mp3 {
+  position: relative;
+  top: 15px;
+  left: 20px;
+
+  a {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+}
+
+.header-langs-more {
+  height: 502px;
+  overflow: auto;
+}
+
+#roboProgressBar {
+  .active-color {
+    -webkit-animation: robo-progress 3s linear infinite;
+    -moz-animation: robo-progress 3s linear infinite;
+    -o-animation: robo-progress 3s linear infinite;
+    animation: robo-progress 3s linear infinite;
+  }
+}
+
+@keyframes robo-progress {
+  0% { fill: #60a0d6; r: 13 }
+  25% { fill: #5d90ba; r: 12 }
+  50% { fill: #51738e; r: 11 }
+  100% { fill: #394b59; r: 10 }
+}

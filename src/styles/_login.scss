@@ -1,0 +1,16 @@
+.login {
+  width: 420px;
+
+  .input_name {
+    width: 220px;
+  }
+
+  .input_email {
+    width: 220px;
+    border: 1px solid transparent;
+
+    &-fail {
+      border-color: darkred;
+    }
+  }
+}

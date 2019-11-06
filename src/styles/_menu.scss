@@ -1,0 +1,28 @@
+.column-left-menu {
+  margin-bottom: 4px;
+}
+
+.left-menu {
+  background-color: var(--menu_left-menu) !important;
+
+  width: 47px;
+  height: calc(100% - 4px);
+  margin: 2px 4px 2px 4px;
+  padding: 8px 4px;
+  border-radius: 10px;
+  border: 0;
+
+  .bp3-button {
+    min-width: 38px;
+    border-radius: 6px;
+
+    &:hover {
+      background-color: var(--menu_left-menu-button-hover) !important;
+    }
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}

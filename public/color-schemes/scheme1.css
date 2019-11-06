@@ -1,0 +1,49 @@
+.rc-th1 {
+  --root_header: #7f2b29;
+  --root_header-devider: rgba(255, 255, 255, 0.7);
+  --root_background: #7f2b29;
+  --root_text-color: #ffffff;
+  --root_header-button: bold;
+  --root_header-project-name: bold;
+  --root_icon: #ffffff;
+  --root_button-primary: #8A5351;
+  --root_intent-primary-active: #7f2b29;
+  --root_button-not-intent: #82413f;
+  --root_button-not-intent-active: #914B49;
+  --root_button-minimal: transparent;
+  --root_button-minimal-hover: #82413f;
+  --root_menu: #82413f;
+  --root_popover-arrow: #82413f;
+  --root_card: #782B29;
+  --root_slider-handle: #82413f;
+  --root_slider-progress: #808080;
+  --root_control-indicator: rgba(16, 22, 26, 0.4);
+  --root_dialog: #4F2928;
+  --root_tab: #EB876C;
+  --root_tab_indicator: #808080;
+  --root-dialog-header: #782B29;
+  --root-popover-content: #82413f;
+
+  --chart_corner-axis: #2f2f2f;
+  --chart_corner-axis-text: #adadad;
+  --chart_line-axis: #2f2f2f;
+  --chart_line-path: #be9d7a;
+  --chart_x-y-label: #adadad;
+  --chart_circle-simple: #be9d7a;
+  --chart_circle-hover: #E3BF98;
+  --chart_handle-tooltip: #be9d7a;
+  --chart_handle-tooltip-default: #E3BF98;
+  --chart_handle-tooltip-pointer: #2f2f2f;
+  --chart_grid: #707070;
+  --chart_grid-title-label: 500;
+  --chart_svg-canvas: #1f1f1f;
+
+  --instruments_instrument-border: #0A0A0A;
+  --instruments_instrument-title: #782B29;
+  --instruments_zoom: #82413f;
+  --instruments_zoom-content: #0A0A0A;
+  --instruments_zoom-content-disable: #808080;
+  
+  --menu_left-menu: #82413f;
+  --menu_left-menu-button-hover: #8A5351;
+ }
