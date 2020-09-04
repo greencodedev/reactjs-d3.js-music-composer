@@ -8,7 +8,7 @@
     "i18next": "^15.0.3",
     "i18next-browser-languagedetector": "^2.2.4",
     "node-sass": "^4.11.0",
-    "papaparse": "^4.6.3",
+    "papaparse": "^5.2.0",
     "react": "^16.8.1",
     "react-beautiful-dnd": "^10.0.3",
     "react-dom": "^16.8.1",
